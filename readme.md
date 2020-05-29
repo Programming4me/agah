@@ -16,6 +16,8 @@
  
   `docker-compose up --build`
 
+##   mongo panel  => http://localhost:8081/
+
 ##test
 curl -i localhost
 

@@ -9,7 +9,10 @@ const ProductSchema = new Schema({
     },
     produced_date: {
         type: String
+    },
+    company: {
+        type: ObjectId,
     }
 });
 
-module.exports  = mongoose.model('Product', ProductSchema);
+module.exports = mongoose.model('Product', ProductSchema);

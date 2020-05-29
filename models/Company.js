@@ -8,7 +8,10 @@ var CompanySchema = new Schema({
     phone: {
         type: String,
         required: true
+    },
+    products: {
+
     }
 });
 
-module.exports = mongoose.model('company.js', CompanySchema);
+module.exports = mongoose.model('Company', CompanySchema);
