@@ -1,0 +1,15 @@
+{
+  "name": "agah",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "exit 1",
+    "start": "nodemon -L  --watch app.js"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "author": "mahdi shapuri",
+  "license": "ISC"
+}

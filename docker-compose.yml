@@ -1,0 +1,20 @@
+version: '3'
+services:
+  app:
+    container_name: agah
+    restart: always
+    build: .
+    ports:
+      - '80:3000'
+    links:
+      - mongo
+  mongo:
+    container_name: mongo
+    image: mongo
+    ports:
+      - '27017:27017'
+  mongo-express:
+    image: mongo-express
+    restart: always
+    ports:
+      - 8081:8081
