@@ -1,7 +1,7 @@
-# ** for agah company
+# ** product crud  
 `information`
 
-**author : mahdi shahpoury**
+**author : mehrad shahpoury**
 
 ##commands
     docker stop $(docker ps -a -q)
